@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trainee Details | Skill Portal</title>
+    <style>
+        body {
+            margin: 0; padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafafa;
+        }
+        .top-bar {
+            width: 100vw;
+            background: #fff;
+            padding: 20px 0 16px 0;
+            border-bottom: 1px solid #e3e3e3;
+            text-align: center;
+        }
+        .top-bar img {
+            width: 100%;
+            max-width: 930px;
+            display: block;
+            margin: 0 auto;
+            height: auto;
+            object-fit: contain;
+        }
+        .main-card {
+            background: #fff;
+            max-width: 1150px;
+            margin: 32px auto 0 auto;
+            border-radius: 16px;
+            box-shadow: 0 2px 20px #eee;
+            padding-bottom: 40px;
+        }
+        .main-card h2 {
+            margin: 0;
+            padding: 28px 0 16px 36px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+        .trainee-content {
+            border-top: 1px solid #ececec;
+            padding: 24px 24px 0 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .photo-row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 22px;
+        }
+        .trainee-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #f5a623;
+            background: #fff;
+            box-shadow: 0 2px 8px #eee;
+            margin-bottom: 10px;
+        }
+        .details-table-wrap {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .details-table {
+            width: 100%;
+            max-width: 1080px;
+            border-collapse: collapse;
+            margin: 0 auto;
+            font-size: 1.07rem;
+        }
+        .details-table td {
+            padding: 10px 8px 6px 8px;
+            vertical-align: top;
+        }
+        .details-table tr td {
+            width: 22%;
+        }
+        .details-table tr td:first-child,
+        .details-table tr td:nth-child(3) {
+            font-weight: bold;
+            color: #222;
+        }
+        @media (max-width: 900px) {
+            .main-card { max-width: 99vw; }
+            .details-table { font-size: 1rem; }
+        }
+        @media (max-width: 600px) {
+            .main-card { padding: 0; }
+            .trainee-content { padding: 12px 1vw 0 1vw; }
+            .details-table { width: 99vw; font-size: 0.95rem; }
+            .main-card h2 { padding: 16px 0 12px 14px; font-size: 1.1rem;}
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <img src="top-bar-skillindia.png.png" alt="Skill India Header" />
+    </div>
+    <div class="main-card">
+        <h2>Trainee Details</h2>
+        <div class="trainee-content">
+            <div class="photo-row">
+                <img src="trainee-photo.jpg.jpg" class="trainee-img" alt="Trainee Photo" />
+            </div>
+            <div class="details-table-wrap">
+                <table class="details-table">
+                    <tr>
+                        <td>Roll No</td><td>00240829017117</td>
+                        <td>Name</td><td>BHAJANTRI SURESHA</td>
+                    </tr>
+                    <tr>
+                        <td>Father Name</td><td>BHAJANTRI ANJINAPPA</td>
+                        <td>Trade Code</td><td>515</td>
+                    </tr>
+                    <tr>
+                        <td>Trade Name</td><td>Mechanic Diesel (NSQF)</td>
+                        <td>Admission Year</td><td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td><td>09-Nov-2003</td>
+                        <td>ITI Code</td><td>PU29000285</td>
+                    </tr>
+                    <tr>
+                        <td>ITI Name</td>
+                        <td colspan="3">SHRI ANNADANESHWAR PVT AIDED ITI GAJENDRAGAD-582114</td>
+                    </tr>
+                    <tr>
+                        <td>Examination Center Address</td>
+                        <td colspan="3">
+                            862-SHRI ANNADANESHWAR AIDED PVT ITI, Ron Road, Purthageri Cross, GAJENDRAGAD, Gadag-582114
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Shift</td><td>1</td>
+                        <td>Unit</td><td>1</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
